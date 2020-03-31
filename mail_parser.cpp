@@ -12,6 +12,5 @@ int main() {
     std::for_each(begin, end, [](const std::smatch& m) {
         std::cout << m.str(2) << std::endl;
         });
-    system("pause");
     return 0;
 }
